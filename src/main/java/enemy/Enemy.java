@@ -1,3 +1,5 @@
+package enemy;
+
 public abstract class Enemy {
 
     private int health;
