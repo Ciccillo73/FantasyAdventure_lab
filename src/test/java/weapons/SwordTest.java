@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 
 
 public class SwordTest {
@@ -19,7 +20,9 @@ public class SwordTest {
         enemy = new Troll(100);
     }
 
-//    @Test
-//    public void attack() {
-//    }
+    @Test
+    public void attack() {
+        sword.attack(enemy);
+        assertEquals(60, enemy.getHealth());
+    }
 }
