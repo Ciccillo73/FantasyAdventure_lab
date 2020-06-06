@@ -1,13 +1,13 @@
 package defenders;
 
-import behaviours.IDefend;
+import behaviours.IMagicWeapon;
 import enemy.Enemy;
 
 
 
-public class Ogre implements IDefend {
+public class Ogre implements IMagicWeapon {
 
-    public void defend(Enemy enemy){
+    public void magicWeaponAttack(Enemy enemy){
         enemy.takeDamage(35);
     }
 

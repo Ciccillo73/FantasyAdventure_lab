@@ -22,7 +22,7 @@ public class DragonTest {
 
     @Test
     public void defend() {
-        dragon.defend(enemy);
+        dragon.magicWeaponAttack(enemy);
         assertEquals(20, enemy.getHealth());
     }
 

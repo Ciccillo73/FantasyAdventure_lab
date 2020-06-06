@@ -23,7 +23,7 @@ public class OgreTest {
 
     @Test
     public void defend() {
-        ogre.defend(enemy);
+        ogre.magicWeaponAttack(enemy);
         assertEquals(65, enemy.getHealth());
     }
 }
