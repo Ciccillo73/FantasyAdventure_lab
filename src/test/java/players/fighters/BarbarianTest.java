@@ -47,10 +47,13 @@ public class BarbarianTest {
 
     @Test
     public void getHealth() {
+        assertEquals(100, barbarian.getHealth());
     }
 
     @Test
     public void setHealth() {
+        barbarian.setHealth(200);
+        assertEquals(200, barbarian.getHealth());
     }
 
     @Test
