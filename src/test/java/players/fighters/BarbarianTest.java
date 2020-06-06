@@ -63,9 +63,12 @@ public class BarbarianTest {
 
     @Test
     public void setPower() {
+        barbarian.setPower(80);
+        assertEquals(80, barbarian.getPower());
     }
 
     @Test
     public void meteorAttack() {
+       assertEquals("It will rain fire", barbarian.meteorAttack());
     }
 }
