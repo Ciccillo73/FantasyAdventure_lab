@@ -25,7 +25,9 @@ public class OrcTest {
         assertEquals(120, orc.getHealth());
     }
 
-//    @Test
-//    public void takeDamage() {
-//    }
+    @Test
+    public void takeDamage() {
+        orc.takeDamage(30);
+        assertEquals(70, orc.getHealth());
+    }
 }
