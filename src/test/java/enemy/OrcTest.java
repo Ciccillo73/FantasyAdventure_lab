@@ -19,10 +19,12 @@ public class OrcTest {
         assertEquals(100, orc.getHealth());
     }
 
-//    @Test
-//    public void setHealth() {
-//    }
-//
+    @Test
+    public void setHealth() {
+        orc.setHealth(120);
+        assertEquals(120, orc.getHealth());
+    }
+
 //    @Test
 //    public void takeDamage() {
 //    }
