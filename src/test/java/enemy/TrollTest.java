@@ -20,12 +20,15 @@ public class TrollTest {
         assertEquals(80, troll.getHealth());
     }
 
-//    @Test
-//    public void setHealth() {
-//
-//    }
-//
-//    @Test
-//    public void takeDamage() {
-//    }
+    @Test
+    public void setHealth() {
+        troll.setHealth(50);
+        assertEquals(50, troll.getHealth());
+    }
+
+    @Test
+    public void takeDamage() {
+        troll.takeDamage(20);
+        assertEquals(60, troll.getHealth());
+    }
 }
