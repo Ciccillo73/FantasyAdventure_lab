@@ -58,6 +58,7 @@ public class BarbarianTest {
 
     @Test
     public void getPower() {
+        assertEquals(50, barbarian.getPower());
     }
 
     @Test
