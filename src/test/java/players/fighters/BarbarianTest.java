@@ -34,8 +34,6 @@ public class BarbarianTest {
         assertEquals(club, barbarian.getWeapon());
     }
 
-
-
     @Test
     public void attack() {
         barbarian.attack(troll);
@@ -44,6 +42,7 @@ public class BarbarianTest {
 
     @Test
     public void getName() {
+        assertEquals("Antonio", barbarian.getName());
     }
 
     @Test
