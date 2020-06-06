@@ -4,7 +4,7 @@ import behaviours.IWeapon;
 import enemy.Enemy;
 import players.Player;
 
-public class Fighter extends Player {
+public abstract class Fighter extends Player {
 
     IWeapon weapon;
 
